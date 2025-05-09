@@ -1,0 +1,67 @@
+# PyTorch 模型文件
+*.pth
+*.pt
+*.bin
+*.onnx
+*.model
+
+# TensorBoard 日志目录
+runs/
+logs/
+tensorboard/
+
+# 数据集目录（可选，根据需要取消注释）
+# chest_xray_img/
+# data/
+# datasets/
+
+# 结果目录
+results/
+
+# Python 虚拟环境
+venv/
+env/
+.env/
+.venv/
+env.bak/
+venv.bak/
+
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDE 相关文件
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+*.tmp 
